@@ -1,0 +1,29 @@
+/* navbar  transistion*/
+.grey-back-transistion {
+    transition: background-color var(--transition-slow), backdrop-filter var(--transition-slow);
+}
+
+.grey-back {
+    background-color: var(--grey-back) !important;
+    backdrop-filter: blur(5px);
+}
+
+/* navbar- link line effect */
+.line-animate {
+    height: 3px;
+    width: 0;
+    transition: width var(--transition);
+}
+
+.nav-item:hover>.line-animate {
+    width: 100%;
+}
+
+/* navbar- link text color effect */
+.nav-item>.nav-link {
+    transition: color var(--transition);
+}
+
+.nav-item:hover>.nav-link {
+    color: var(--theme-color-1) !important;
+}

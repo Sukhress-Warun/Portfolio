@@ -1,0 +1,95 @@
+{
+    "sections" : [
+        {
+            "name" : "home",
+            "href" : "#"
+        },
+        {
+            "name" : "hero",
+            "href" : "#"
+        },
+        {
+            "name" : "projects",
+            "href" : "#"
+        }
+    ],
+    "skills" : [
+        {
+            "name" : "Bootstrap",
+            "img" : "images/skills/Bootstrap.svg"
+        },
+        {
+            "name" : "C",
+            "img" : "images/skills/C.svg"
+        },
+        {
+            "name" : "CSS",
+            "img" : "images/skills/CSS.svg"
+        },
+        {
+            "name" : "ExpressJS",
+            "img" : "images/skills/ExpressJS-Dark.svg"
+        },
+        {
+            "name" : "Git",
+            "img" : "images/skills/Git.svg"
+        },
+        {
+            "name" : "Github",
+            "img" : "images/skills/Github-Dark.svg"
+        },
+        {
+            "name" : "HTML",
+            "img" : "images/skills/HTML.svg"
+        },
+        {
+            "name" : "Java",
+            "img" : "images/skills/Java-Dark.svg"
+        },
+        {
+            "name" : "JavaScript",
+            "img" : "images/skills/JavaScript.svg"
+        },
+        {
+            "name" : "MongoDB",
+            "img" : "images/skills/MongoDB.svg"
+        },
+        {
+            "name" : "Mongoose.js",
+            "img" : "images/skills/Mongoose.js.svg"
+        },
+        {
+            "name" : "MySQL",
+            "img" : "images/skills/MySQL-Dark.svg"
+        },
+        {
+            "name" : "NodeJS",
+            "img" : "images/skills/NodeJS-Dark.svg"
+        },
+        {
+            "name" : "Pug",
+            "img" : "images/skills/Pug-Dark.svg"
+        },
+        {
+            "name" : "Python",
+            "img" : "images/skills/Python-Dark.svg"
+        },
+        {
+            "name" : "React",
+            "img" : "images/skills/React-Dark.svg"
+        },
+        {
+            "name" : "Stack Over flow",
+            "img" : "images/skills/StackOverflow-Dark.svg"
+        },
+        {
+            "name" : "ThreeJS",
+            "img" : "images/skills/ThreeJS-Dark.svg"
+        },
+        {
+            "name" : "VSCode",
+            "img" : "images/skills/VSCode-Dark.svg"
+        }
+
+    ]
+}

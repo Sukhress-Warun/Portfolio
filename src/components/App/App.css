@@ -1,0 +1,84 @@
+/* imports */
+
+/* fonts */
+
+/* Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Titillium Web */
+@import url('https://fonts.googleapis.com/css2?family=League+Script&family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+/* League Spartan */
+@import url('https://fonts.googleapis.com/css2?family=League+Script&family=League+Spartan:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+/* Playfair Display */
+@import url('https://fonts.googleapis.com/css2?family=League+Script&family=League+Spartan:wght@100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+/* Play */
+@import url('https://fonts.googleapis.com/css2?family=League+Script&family=League+Spartan:wght@100..900&family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+/* Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=League+Script&family=League+Spartan:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+/* variables */
+:root {
+  --font-family: "Play", sans-serf;
+  --transition: 0.1s;
+  --transition-slow: 3s;
+  --dark-color: #121212;
+  --text-color: #ECECEC;
+  --text-color-dim: #ecececa2;
+  --theme-color-1: #B15EFF;
+  /* #B15EFF ; 902bf5 ; ac73ff ; 5a34e3 ; 0132fc*/
+  --grey-back: #1212129a;
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #ffffeca8;
+  border-radius: 2px;
+}
+
+/* css reset*/
+html {
+  scroll-behavior: smooth !important;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* font*/
+* {
+  font-family: var(--font-family) !important;
+}
+
+/* body {
+  background-image: radial-gradient(#131313, var(--dark-color));
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  max-height: max-content;
+  background-position: center;
+  background-size: cover;
+} */
+
+/* dark mode */
+.dark-mode {
+  background-color: var(--dark-color);
+  color: var(--text-color);
+}
+
+/* color */
+.theme-color-1-text {
+  color: var(--theme-color-1) !important;
+}
+.theme-color-1-bg {
+  background-color: var(--theme-color-1) !important;
+}
+.text-color{
+  color: var(--text-color) !important;
+}
+.text-color-dim{
+  color: var(--text-color-dim) !important;
+}
