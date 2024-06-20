@@ -17,7 +17,7 @@ const About = () => {
           </p>
           <hr />
           <p style={{ textAlign: "" }} className='fs-5'>
-            Enthusiastic software developer with a strong coding background and a commitment to excellence, I thrive on challenges and am constantly seeking new opportunities to grow and expand my expertise. Eager to collaborate and learn in dynamic environments, I bring a collaborative mindset, a thirst for knowledge, and enjoy working with others to create innovative solutions that make a difference. Whether it's optimizing existing systems, developing new software solutions, or tackling challenges head-on, I'm dedicated to delivering results that exceed expectations. Let's connect and explore how I can contribute to your team's success.
+            I'm Sukhresswarun, a software developer passionate about crafting elegant solutions. With a solid coding background, I thrive on challenges and constantly seek to expand my expertise. Eager to collaborate in dynamic environments, I bring a collaborative mindset and a thirst for knowledge. I enjoy working with others to create innovative solutions that make a difference. Whether it's optimizing existing systems, developing new software solutions, or tackling challenges head-on, I'm committed to delivering results that exceed expectations while consistently prioritizing clean code. Let's connect and explore how I can contribute to your team's success.
           </p>
         </div>
 

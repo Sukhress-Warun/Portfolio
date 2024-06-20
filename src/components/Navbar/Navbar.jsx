@@ -6,8 +6,8 @@ import './Navbar.css'
 
 const Navbar = () => {
     const [navClass, setNavClass] = useState("")
-    const [hoverSound] = useSound('/sounds/hover.wav', {playbackRate: 1, volume: 0.5})
-    const [hoverReverseSound] = useSound('/sounds/hover-reverse.wav', {playbackRate: 1, volume: 0.5})
+    const [hoverSound] = useSound('/sounds/hover.wav', {playbackRate: 1.5, volume: 0.5})
+    const [hoverReverseSound] = useSound('/sounds/hover-reverse.wav', {playbackRate: 1.5, volume: 0.5})
     const [selectSound] = useSound('/sounds/select.wav', {playbackRate: 1.5, volume: 0.5})
     let sections = data.sections
 
