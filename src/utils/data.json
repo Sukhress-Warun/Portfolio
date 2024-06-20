@@ -89,6 +89,10 @@
         {
             "name" : "VSCode",
             "img" : "images/skills/VSCode-Dark.svg"
+        },
+        {
+            "name" : "Docker",
+            "img" : "images/skills/Docker.svg"
         }
 
     ]

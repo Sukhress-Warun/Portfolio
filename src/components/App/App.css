@@ -21,11 +21,11 @@
   --transition: 0.1s;
   --transition-slow: 3s;
   --dark-color: #121212;
-  --text-color: #ECECEC;
-  --text-color-dim: #ecececa2;
+  --light-color: #ECECEC;
+  --light-dim-color: #ecececa2;
   --theme-color-1: #B15EFF;
   /* #B15EFF ; 902bf5 ; ac73ff ; 5a34e3 ; 0132fc*/
-  --grey-back: #1212129a;
+  --grey-color: #1212129a;
 }
 
 /* custom scrollbar */
@@ -66,7 +66,7 @@ html {
 /* dark mode */
 .dark-mode {
   background-color: var(--dark-color);
-  color: var(--text-color);
+  color: var(--light-color);
 }
 
 /* color */
@@ -76,9 +76,9 @@ html {
 .theme-color-1-bg {
   background-color: var(--theme-color-1) !important;
 }
-.text-color{
-  color: var(--text-color) !important;
+.light-color-text{
+  color: var(--light-color) !important;
 }
-.text-color-dim{
-  color: var(--text-color-dim) !important;
+.light-dim-color-text{
+  color: var(--light-dim-color) !important;
 }

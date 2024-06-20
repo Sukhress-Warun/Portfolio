@@ -47,7 +47,7 @@ const Navbar = () => {
                         {sections.map((section, i) => {
                             return (
                                 <li className="nav-item fs-4 text-capitalize mx-3 mb-2" key={i} onMouseEnter={hoverSound} onMouseLeave={hoverReverseSound} onClick={selectSound}>
-                                    <a className="nav-link text-color-dim" href={`${section.href}`}>
+                                    <a className="nav-link light-dim-color-text" href={`${section.href}`}>
                                         {section.name}
                                     </a>
                                     <div className="line-animate theme-color-1-bg"></div>
