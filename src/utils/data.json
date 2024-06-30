@@ -2,15 +2,11 @@
     "sections" : [
         {
             "name" : "home",
-            "href" : "#"
+            "href" : "/#home"
         },
         {
-            "name" : "hero",
-            "href" : "#"
-        },
-        {
-            "name" : "projects",
-            "href" : "#"
+            "name" : "About",
+            "href" : "/#about"
         }
     ],
     "skills" : [

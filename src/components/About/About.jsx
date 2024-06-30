@@ -7,7 +7,7 @@ const About = () => {
   let skills = data.skills
 
   return (
-    <div className='container'>
+    <div id={"about"} className='container'>
 
       <div className='row justify-content-center'>
 
