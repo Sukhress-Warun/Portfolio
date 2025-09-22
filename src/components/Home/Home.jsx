@@ -27,18 +27,18 @@ const Home = () => {
               Share just your ideas, I'll handle the rest
             </p>
 
-            <div className='mt-4 d-flex gap-2 flex-wrap'>
-              <a href="https://github.com/Sukhress-Warun" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center text-decoration-none px-3 py-1 rounded-pill trans-black-bg">
+            <div className='mt-4 d-flex flex-wrap justify-content-start'>
+              <a href="https://github.com/Sukhress-Warun" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center text-decoration-none px-3 py-1 rounded-pill trans-black-bg me-2 mb-2">
                 <img src="/images/icons/Github.svg" alt="GitHub" width={"15rem"} />
                 <span className="ms-2 light-color-text">GitHub</span>
               </a>
 
-              <a href="https://www.linkedin.com/in/sukhress-warun/" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center text-decoration-none px-3 py-1 rounded-pill trans-black-bg">
+              <a href="https://www.linkedin.com/in/sukhress-warun/" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center text-decoration-none px-3 py-1 rounded-pill trans-black-bg me-2 mb-2">
                 <img src="/images/icons/LinkedIn.svg" alt="LinkedIn" width={"15rem"} />
                 <span className="ms-2 light-color-text">LinkedIn</span>
               </a>
 
-              <a href="https://leetcode.com/u/sukhresswarun/" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center text-decoration-none px-3 py-1 rounded-pill trans-black-bg">
+              <a href="https://leetcode.com/u/sukhresswarun/" target="_blank" rel="noopener noreferrer" className="d-flex align-items-center text-decoration-none px-3 py-1 rounded-pill trans-black-bg me-2 mb-2">
                 <img src="/images/icons/Leetcode.svg" alt="LeetCode" width={"15rem"} />
                 <span className="ms-2 light-color-text">LeetCode</span>
               </a>
