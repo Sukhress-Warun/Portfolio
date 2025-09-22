@@ -26,6 +26,7 @@
   --theme-color-1: #B15EFF;
   /* #B15EFF ; 902bf5 ; ac73ff ; 5a34e3 ; 0132fc*/
   --grey-color: #1212129a;
+  --trans-black: #ffffff0a;
 }
 
 /* custom scrollbar */
@@ -81,4 +82,13 @@ html {
 }
 .light-dim-color-text{
   color: var(--light-dim-color) !important;
+}
+.grey-color-text{
+  color: var(--grey-color) !important;
+}
+.grey-color-bg{
+  background-color: var(--grey-color) !important;
+}
+.trans-black-bg{
+  background-color: var(--trans-black) !important;
 }

@@ -1,95 +1,220 @@
 {
-    "sections" : [
+    "sections": [
         {
-            "name" : "home",
-            "href" : "/#home"
+            "name": "Home",
+            "href": "/#home"
         },
         {
-            "name" : "About",
-            "href" : "/#about"
+            "name": "About",
+            "href": "/#about"
+        },
+        {
+            "name": "Skills",
+            "href": "/#skills"
+        },
+        {
+            "name": "Projects",
+            "href": "/#projects"
         }
     ],
-    "skills" : [
+    "skills": [
         {
-            "name" : "Bootstrap",
-            "img" : "images/skills/Bootstrap.svg"
+            "name": "Java",
+            "img": "images/skills/Java-Dark.svg"
         },
         {
-            "name" : "C",
-            "img" : "images/skills/C.svg"
+            "name": "Python",
+            "img": "images/skills/Python-Dark.svg"
         },
         {
-            "name" : "CSS",
-            "img" : "images/skills/CSS.svg"
+            "name": "JavaScript",
+            "img": "images/skills/JavaScript.svg"
         },
         {
-            "name" : "ExpressJS",
-            "img" : "images/skills/ExpressJS-Dark.svg"
+            "name": "C",
+            "img": "images/skills/C.svg"
         },
         {
-            "name" : "Git",
-            "img" : "images/skills/Git.svg"
+            "name": "NodeJS",
+            "img": "images/skills/NodeJS-Dark.svg"
         },
         {
-            "name" : "Github",
-            "img" : "images/skills/Github-Dark.svg"
+            "name": "ExpressJS",
+            "img": "images/skills/ExpressJS-Dark.svg"
         },
         {
-            "name" : "HTML",
-            "img" : "images/skills/HTML.svg"
+            "name": "Mongoose.js",
+            "img": "images/skills/Mongoose.js.svg"
         },
         {
-            "name" : "Java",
-            "img" : "images/skills/Java-Dark.svg"
+            "name": "MongoDB",
+            "img": "images/skills/MongoDB.svg"
         },
         {
-            "name" : "JavaScript",
-            "img" : "images/skills/JavaScript.svg"
+            "name": "MySQL",
+            "img": "images/skills/MySQL-Dark.svg"
         },
         {
-            "name" : "MongoDB",
-            "img" : "images/skills/MongoDB.svg"
+            "name": "Docker",
+            "img": "images/skills/Docker.svg"
         },
         {
-            "name" : "Mongoose.js",
-            "img" : "images/skills/Mongoose.js.svg"
+            "name": "React",
+            "img": "images/skills/React-Dark.svg"
         },
         {
-            "name" : "MySQL",
-            "img" : "images/skills/MySQL-Dark.svg"
+            "name": "Pug",
+            "img": "images/skills/Pug-Dark.svg"
         },
         {
-            "name" : "NodeJS",
-            "img" : "images/skills/NodeJS-Dark.svg"
+            "name": "Bootstrap",
+            "img": "images/skills/Bootstrap.svg"
         },
         {
-            "name" : "Pug",
-            "img" : "images/skills/Pug-Dark.svg"
+          "name": "ThreeJS",
+          "img": "images/skills/ThreeJS-Dark.svg"
         },
         {
-            "name" : "Python",
-            "img" : "images/skills/Python-Dark.svg"
+            "name": "HTML",
+            "img": "images/skills/HTML.svg"
         },
         {
-            "name" : "React",
-            "img" : "images/skills/React-Dark.svg"
+            "name": "CSS",
+            "img": "images/skills/CSS.svg"
         },
         {
-            "name" : "Stack Over flow",
-            "img" : "images/skills/StackOverflow-Dark.svg"
+            "name": "Git",
+            "img": "images/skills/Git.svg"
         },
         {
-            "name" : "ThreeJS",
-            "img" : "images/skills/ThreeJS-Dark.svg"
+            "name": "Github",
+            "img": "images/skills/Github-Dark.svg"
         },
         {
-            "name" : "VSCode",
-            "img" : "images/skills/VSCode-Dark.svg"
+          "name": "Stack Overflow",
+          "img": "images/skills/StackOverflow-Dark.svg"
         },
         {
-            "name" : "Docker",
-            "img" : "images/skills/Docker.svg"
+            "name": "IntelliJ IDEA",
+            "img": "images/skills/Idea-Dark.svg"
+        },
+        {
+            "name": "VSCode",
+            "img": "images/skills/VSCode-Dark.svg"
         }
-
+        
+    ],
+    "projects": [
+        {
+            "name": "Platform for Story Writers",
+            "date": "August 2023",
+            "description": [
+                "Built a community-driven platform for story writers to publish, explore, and review stories, with secure access through session-based authentication and hashed password storage.",
+                "Implemented features including user profiles with author pages, personal review dashboards, and story detail pages displaying average ratings and review counts.",
+                "Enforced business rules and constraints, such as requiring login for story and review actions, preventing self-ratings, limiting one rating per story per user."
+            ],
+            "github": "https://github.com/Sukhress-Warun/Story-Website",
+            "link": "https://story-4ii2.onrender.com/",
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "Employee and Attendance Management System",
+            "date": "August 2025",
+            "description": [
+                "Developed a Java-based HR backend system to manage employees, track attendance, leaves, and holidays.",
+                "Implemented features including employee management with reporting hierarchy, check-in/check-out tracking, leave application and cancellation, and calendar views displaying attendance, leave, holidays, and weekends.",
+                "Enforced business rules and constraints, such as restricting check-ins/outs on leave or holidays, preventing multiple conflicting actions, validating leave eligibility, and logging all successful attendance actions."
+            ],
+            "github": "https://github.com/Sukhress-Warun/HRMS",
+            "link": null,
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "Local Network Chat Room with Multi-Client Support",
+            "date": "April 2023",
+            "description": [
+                "Built a chat server to allow multiple clients to communicate in a shared local area chat room, using sockets, multithreading, and locks.",
+                "Implemented features including real-time message delivery and acknowledgements for join, leave, and disconnect events.",
+                "Enforced business rules and constraints, such as connection limits, seamless client disconnect handling, and thread-safe message broadcasting to prevent data loss."
+            ],
+            "github": "https://github.com/Sukhress-Warun/Local-area-chat-room",
+            "link": null,
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "Taxi Booking and Fare Estimation Application",
+            "date": "August 2024",
+            "description": [
+                "Contributed to the development of a taxi booking application for a startup, implementing vehicle selection and map-based location selection.",
+                "Built booking and ride history features with dynamic fare calculation based on distance and vehicle type."
+            ],
+            "github": "https://github.com/Vishwaraviraaj08/Car-Booking",
+            "link": null,
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "Real-Time Human Pose and Progress Tracking Platform",
+            "date": "May 2024",
+            "description": [
+                "Built a real-time pose analysis platform using Google’s Mediapipe Pose library for accurate body movement tracking.",
+                "Designed and implemented graph-based comparison and historical data tracking to monitor user progress over time."
+            ],
+            "github": "https://github.com/Vishwaraviraaj08/LiveInLab_ReactJS",
+            "link": "https://smart-steps-lil.netlify.app/",
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "Serverless Image Background Removal Tool",
+            "date": "March 2024",
+            "description": [
+                "Built a serverless function to remove image backgrounds using external API, integrated with frontend upload/download UI.",
+                "Deployed using cloud serverless architecture, improving scalability and reducing server maintenance overhead."
+            ],
+            "github": "https://github.com/Sukhress-Warun/remove-background",
+            "link": null,
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "Interactive 2D Soft Body Simulation",
+            "date": "May 2023",
+            "description": [
+                "Developed a real-time soft body simulation using a mass-spring system with node-based structure.",
+                "Implemented gravity, spring tension visualization through color changes, and interactive node dragging for dynamic deformation."
+            ],
+            "github": "https://github.com/Sukhress-Warun/SoftBody-Simulation",
+            "link": null,
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "2D Fish Behavior and Food-Seeking Simulation",
+            "date": "September 2022",
+            "description": [
+                "Developed a 2D fish simulation where multiple fish agents navigate an environment with randomly spawning food items.",
+                "Implemented fish movement behaviors including seeking food and adjusting velocity based on food location, with real-time visual updates using Pygame."
+            ],
+            "github": "https://github.com/Sukhress-Warun/Fish_Simulation",
+            "link": null,
+            "images": [],
+            "videos": []
+        },
+        {
+            "name": "Box Breaker 2D Arcade Game",
+            "date": "April 2023",
+            "description": [
+                "Created a 2D arcade-style game where the player controls a ball (via up/left/right keys) to hit falling boxes; game restarts on miss.",
+                "Implemented continuous box spawning from the bottom, collision detection with the ball, and score reset on failure."
+            ],
+            "github": "https://github.com/Sukhress-Warun/Ball_Game",
+            "link": null,
+            "images": [],
+            "videos": []
+        }
     ]
 }
